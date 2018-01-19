@@ -1,12 +1,12 @@
 var Buffer = require('safe-buffer').Buffer
 var bip66 = require('bip66')
-var pushdata = require('pushdata-bitcoin')
+var pushdata = require('pushdata-ufocoin')
 var typeforce = require('typeforce')
 var types = require('./types')
 var scriptNumber = require('./script_number')
 
-var OPS = require('bitcoin-ops')
-var REVERSE_OPS = require('bitcoin-ops/map')
+var OPS = require('ufocoin-ops')
+var REVERSE_OPS = require('ufocoin-ops/map')
 var OP_INT_BASE = OPS.OP_RESERVED // OP_1 - 1
 
 function isOPInt (value) {

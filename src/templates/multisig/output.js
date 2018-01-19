@@ -3,7 +3,7 @@
 var bscript = require('../../script')
 var types = require('../../types')
 var typeforce = require('typeforce')
-var OPS = require('bitcoin-ops')
+var OPS = require('ufocoin-ops')
 var OP_INT_BASE = OPS.OP_RESERVED // OP_1 - 1
 
 function check (script, allowIncomplete) {

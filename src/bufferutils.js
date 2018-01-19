@@ -1,5 +1,5 @@
-var pushdata = require('pushdata-bitcoin')
-var varuint = require('varuint-bitcoin')
+var pushdata = require('pushdata-ufocoin')
+var varuint = require('varuint-ufocoin')
 
 // https://github.com/feross/buffer/blob/master/index.js#L1127
 function verifuint (value, max) {

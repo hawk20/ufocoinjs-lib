@@ -1,9 +1,9 @@
-// https://en.bitcoin.it/wiki/List_of_address_prefixes
-// Dogecoin BIP32 is a proposed standard: https://bitcointalk.org/index.php?topic=409731
+// https://en.ufocoin.it/wiki/List_of_address_prefixes
+// Dogecoin BIP32 is a proposed standard: https://ufocointalk.org/index.php?topic=409731
 
 module.exports = {
-  bitcoin: {
-    messagePrefix: '\x18Bitcoin Signed Message:\n',
+  ufocoin: {
+    messagePrefix: '\x18Ufocoin Signed Message:\n',
     bech32: 'bc',
     bip32: {
       public: 0x0488b21e,
@@ -14,7 +14,7 @@ module.exports = {
     wif: 0x80
   },
   testnet: {
-    messagePrefix: '\x18Bitcoin Signed Message:\n',
+    messagePrefix: '\x18Ufocoin Signed Message:\n',
     bech32: 'tb',
     bip32: {
       public: 0x043587cf,
